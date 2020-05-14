@@ -31,5 +31,7 @@ access_log /var/log/testwx.log main;
 location / {
 try_files $uri KaTeX parse error: Expected 'EOF', got '}' at position 55: …html; }̲ locati… /index.html last;
 }
-}![输入图片说明](https://images.gitee.com/uploads/images/2020/0514/123329_182b3cd7_810825.png "搜狗截图20200514105710.png")
+}
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0514/123414_af706583_810825.png "搜狗截图20200514105808.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0514/123329_182b3cd7_810825.png "搜狗截图20200514105710.png")
 ![输入图片说明](https://images.gitee.com/uploads/images/2020/0514/123248_a7b2c881_810825.png "搜狗截图20200514105648.png")
