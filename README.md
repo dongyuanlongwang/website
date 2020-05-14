@@ -32,4 +32,4 @@ location / {
 try_files $uri KaTeX parse error: Expected 'EOF', got '}' at position 55: …html; }̲ locati… /index.html last;
 }
 }
-(https://images.gitee.com/uploads/images/2020/0514/123028_9a139979_810825.png "搜狗截图20200514105808.png")(https://images.gitee.com/uploads/images/2020/0514/123015_df92d7c2_810825.png "搜狗截图20200514105710.png")(https://images.gitee.com/uploads/images/2020/0514/122954_2070dbb8_810825.png "搜狗截图20200514105648.png")
+![输入图片说明](https://images.gitee.com/uploads/images/2020/0514/123248_a7b2c881_810825.png "搜狗截图20200514105648.png")
