@@ -11,7 +11,10 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 
-公司最近更新一版网站，换成vue做的，静态模板，没有后台，pc端已经自适用手机端，宣传够用了，废话少说，直接上图，拿去，仅有主页，其他页面随后更新，需要的话联系qq:568149471
+vue静态模板，没有后台，一套代码，pc端手机自适应，仅有主页，其他页面随后更新，更多的请查看
+
+ **https://demo.hyxdsoft.com/** 
+
 部署步骤
 前期安装nodejs，vue
 执行
