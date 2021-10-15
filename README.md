@@ -13,6 +13,7 @@ npm run build --report
 
 vue静态模板，没有后台，一套代码，pc端手机自适应，仅有主页，其他页面随后更新，更多的请查看
 
+ **此处修改为http，不是https了** 
 http://demo.hyxdsoft.com/
 
 部署步骤
