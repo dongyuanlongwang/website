@@ -1,28 +1,83 @@
 <template>
-  <div class="login" >
-    开放服务
-    09:00
-    开馆时间
 
-    16:00
-    停止入馆时间
+  <el-carousel :interval="4000" indicator-position="outside" type="card" height="450px">
+    <el-carousel-item>
+      <img style="height: 100% ;width: 100%" src="@/assets/img/mock/big1.jpg" alt="big1"/>
+    </el-carousel-item>
+    <el-carousel-item>
+      <img style="height: 100% ;width: 100%" src="@/assets/img/mock/big2.jpg" alt="big1"/>
+    </el-carousel-item>
+    <el-carousel-item>
+      <img style="height: 100% ;width: 100%" src="@/assets/img/mock/big3.jpg" alt="big1"/>
+    </el-carousel-item>
+  </el-carousel>
+  <el-row :gutter="24">
+    <el-col :span="18">
+      <div class="red-back">
+        <div class="pad">
+          <div class="ticket-report">
+            <h3>票务通知</h3>
+            <el-icon>
+              <ArrowLeftBold/>
+            </el-icon>
+          </div>
+          <h5 style="color: white">
+            观众可提前3日（含当天）通过“山西博物院”微信公众号点击“参观服务”实名预约，每个预约单最多预约3人（每人都需要提供个人信息），每张身份证每天限约1次，请务必保存好预约凭证。</h5>
+        </div>
 
-    17:00
-    闭馆时间
+        <div class="pad2">
+          <h2>免费开放时间</h2>
+          <div>
+            <el-row gutter="24">
+              <el-col :span="8">
+                <img style="width: 100%" src="@/assets/img/mock/arr5.png" alt="">
+                <div class="date">09:00<span class="s1">开馆</span>
+                </div>
+                <img style="width: 100%" src="@/assets/img/mock/arr5.png" alt="">
+              </el-col>
+              <el-col :span="8">
+                <img style="width: 100%" src="@/assets/img/mock/arr5.png" alt="">
+                <div class="date">09:00<span class="s1">开馆</span>
+                </div>
+                <img style="width: 100%" src="@/assets/img/mock/arr5.png" alt="">
+              </el-col>
+              <el-col :span="8">
+                <img style="width: 100%" src="@/assets/img/mock/arr5.png" alt="">
+                <div class="date">09:00<span class="s1">开馆</span>
+                </div>
+                <img style="width: 100%" src="@/assets/img/mock/arr5.png" alt="">
+              </el-col>
+            </el-row>
+          </div>
+        </div>
+      </div>
+    </el-col>
+    <el-col :span="6">
+      <div class="block-col">
+        <el-row :gutter="24">
+          <el-col style="padding:10% 0" :span="8">
+            <Service style="width: 3em; height: 3em; margin-right: 8px"/>
+            <h3>开放服务</h3>
+          </el-col>
+          <el-col style="padding:10% 0" :span="8">
+            <Guide style="width: 3em; height: 3em; margin-right: 8px"/>
+            <h3>参观导览</h3>
+          </el-col>
+          <el-col style="padding:10% 0" :span="8">
+            <Comment style="width: 3em; height: 3em; margin-right: 8px"/>
+            <h3>加入我们</h3>
+          </el-col>
+        </el-row>
+      </div>
 
-    每周一、除夕、正月初一 闭馆（周一逢国家法定节假日正常开放）。
-    票务须知
-    疫情防控期间，观众可提前3日（含当天）在“山西博物院”官方微信办理预约。
+    </el-col>
+  </el-row>
 
-    点击微信菜单“参观服务”，选择“山西博物院预约”或“青铜分馆预约”，进入预约页面。根据提示在线填写个人信息，每个预约单最多预约3人（青铜分馆为2人），每张身份证每天限约1次，请务必保存好预约凭证。老年人可凭身份证或老年证取消预约环节，在现场工作人员的协助下完成个人信息登记和健康码、行程卡的申领，完成后可进馆参观。
-
-    咨询服务电话：0351—8789188
-
-    票务须知
-
-  </div>
 </template>
+<script setup>
+import '@/assets/styles/home.scss'
 
+</script>
 <style lang="scss" scoped>
 .login {
   display: flex;
@@ -32,5 +87,6 @@
   background-image: url("@/assets/img/backgroud.png");
   background-size: cover;
 }
+
 
 </style>

@@ -1,0 +1,42 @@
+
+.red-back {
+  background-image: url("../img/mock/bar1.jpg");
+  height: 100%;
+
+  display: flex;
+  .pad {
+    padding: 3% 3% 3% 3%;
+    text-align: center;
+    width: 40%;
+    .ticket-report {
+      background-image: url("../img/mock/home2.png");
+      width: 139px;
+      height: 139px;
+      float: left;
+      margin-right: 15px;
+      color: white;
+    }
+  }
+  .pad2{
+    .date{
+      color: #e1c5b6;
+      font-size: 40px;
+      line-height: 1;
+      .s1{
+        color: white;
+        font-size: 14px;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+.block-col{
+  height: 90%;
+  background-color: #646e82;
+  padding: 3% 3% 3% 3%;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  line-height: 1.2;
+
+}
