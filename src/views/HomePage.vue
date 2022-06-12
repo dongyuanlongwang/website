@@ -1,4 +1,9 @@
 <template>
+  <div :class="app-container">
+    <slot></slot>
+  </div>
+
+
   <page class="home-page">
     <zui-header>
       <logo type="xiaoyanyun" href="/"></logo>
@@ -43,9 +48,6 @@
         <h4>后顾无忧·迅速迭代版本更新>></h4>
       </a>
     </div>
-   <!-- <a class="join-zhichou" href="http://wx.zhichou.com/#/me/resume">
-      我是牛人，入驻智筹 >>
-    </a> -->
     <div class="service">
       <h1>
         专业互联网研发集成平台<br/>
@@ -110,9 +112,9 @@
   import feature3 from '../assets/img/feature3.png'
   import feature4 from '../assets/img/feature4.png'
   import Util from '../Util'
-  import DropList from 'vue-droplist'
+  // import DropList from 'vue-droplist'
   export default{
-    components: {Page, Logo, ZuiHeader, ZuiFooter,ZuiButton,DropList},
+    components: {Page, Logo, ZuiHeader, ZuiFooter,ZuiButton},
     data () {
       return {
         feature1: feature1,

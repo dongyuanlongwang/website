@@ -15,9 +15,6 @@
   import Util from '../Util'
 
   export default {
-    props: {
-      title: '智筹'
-    },
     components: {
       ZuiToast,
       ZuiLoading

@@ -5,24 +5,27 @@ import {createRouter, createWebHashHistory} from 'vue-router'
 
 const constantRoutes=[{
   path: '/',
-  component: ()=> import('@/views/HomePage')
+  component: ()=> import('@/views/index'),
+  children:[
+    {
+      path: '/home',
+      component: ()=> import('@/views/home')
+    },
+    {
+      path: '/about/about',
+      component: ()=> import('@/views/about/about')
+    },
+    {
+      path: '/about/org',
+      component: ()=> import('@/views/about/org')
+    },
+  ]
 }]
 
 const  router=createRouter({
   history: createWebHashHistory(),
   routes: constantRoutes,
 })
-
-//
-// const router = new VueRouter({
-//   mode: 'history',
-//   base: __dirname,
-//   routes: [{
-//       path: '/',
-//       component: HomePage
-//     }
-//   ]
-// });
 
 
 export default router;
