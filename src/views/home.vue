@@ -34,9 +34,9 @@ import eshop from '@/assets/img/pexels-fauxels-3184464.jpg'
 
   <el-image :src="eshop" lazy/>
   <div class="text" style="top: 430%; left: 40%;">
-    <h2>Trade in bulk goods</h2>
+    <h2>Cross-boundary Electronic Accounts</h2>
     <h3>
-      Bulk grain import and export, covering barley, wheat, corn, sugar soybeans, fertilizer and other metals and raw materials import and export. Recycled copper, lithium phosphate, oil and natural gas. Consumer electronics.
+      Its products include consumer electronics and home furnishings, which reach the global market through platforms such as Amazon.
     </h3>
   </div>
 
