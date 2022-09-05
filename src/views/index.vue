@@ -12,7 +12,6 @@
 import {ref} from "vue";
 import {useRoute, useRouter} from 'vue-router'
 
-import logo from '@/assets/svg/logo.svg'
 
 
 const route = useRoute();

@@ -4,38 +4,45 @@ import '@/assets/styles/home.scss'
 import port from '@/assets/img/port.png'
 import port_6670684 from '@/assets/img/port-6670684.jpg'
 import rice from '@/assets/img/rice-1549130.jpg'
+import eshop from '@/assets/img/pexels-fauxels-3184464.jpg'
 </script>
 
 
 <template>
   <el-image :src="port" lazy/>
-  <div class="text" style="top: 20%;  right: 0;">
-    <h2>港口服务</h2>
+  <div class="text" style="top: 15%;  right: 3%;">
+    <h2>Port services</h2>
     <h3>
-      港口服务市场，是指港口服务的交易市场。具有明显的区域特征。如果在一定区域内只有一个可供使用的港口，那么这地区的港口市场就是一个完全的卖方垄断市场。在大多数情况下同时有几个港口可以为腹地内货物进出口提供同质服务。
+      Port service market refers to the market for trading port services. It has obvious regional characteristics. If there is only one available port in a given area, then the port market in that area is a complete seller's monopoly market. In most cases, there are several ports at the same time to provide homogeneous services for the import and export of goods in the hinterland.
     </h3>
   </div>
   <el-image :src="port_6670684" lazy/>
-  <div class="text" style="top: 150%; left: 0;">
-    <h2>海上运输</h2>
+  <div class="text" style="top: 150%; left: 3%;">
+    <h2>Maritime transport</h2>
     <h3>
-      我们的海运整柜服务覆盖世界主要航线，我们提供有普通集装箱、冷冻箱、特种箱等运输方式，在为您提供可靠的舱位前提下，让您拥有更多的选择。我们专业团队会根据您的需求为您建议合理的运输路线。
+      Our shipping FCL service covers the world's main routes, we provide ordinary containers, freezers, special containers and other transportation modes, in the premise of providing you with reliable shipping space, so that you have more choices. Our professional team will suggest a reasonable transportation route according to your needs.
     </h3>
   </div>
 
   <el-image :src="rice" lazy/>
-  <div class="text" style="top: 300%; right: 0;">
-    <h2>粮食贸易</h2>
+  <div class="text" style="top: 300%; right:3%;">
+    <h2>Trade in bulk goods</h2>
     <h3>
-      粮食大宗进出口，苜蓿，大麦
+      Bulk grain import and export, covering barley, wheat, corn, sugar soybeans, fertilizer and other metals and raw materials import and export. Recycled copper, lithium phosphate, oil and natural gas. Consumer electronics.
+    </h3>
+  </div>
+
+  <el-image :src="eshop" lazy/>
+  <div class="text" style="top: 430%; left: 40%;">
+    <h2>Trade in bulk goods</h2>
+    <h3>
+      Bulk grain import and export, covering barley, wheat, corn, sugar soybeans, fertilizer and other metals and raw materials import and export. Recycled copper, lithium phosphate, oil and natural gas. Consumer electronics.
     </h3>
   </div>
 
   <div class="connect">
     <div class="left">
       <div style="display: inline">
-        <span style="font-size: 42px">联系我们</span>
-        <br/>
         <span style="font-size: 42px">contact us</span>
       </div>
     </div>
@@ -49,8 +56,8 @@ import rice from '@/assets/img/rice-1549130.jpg'
         </el-col>
         <el-col>
           <el-row :gutter="24">
-            <el-col :span="6"><span class="span">联系人: </span></el-col>
-            <el-col :span="12" :offset="4"><span class="span">刘奇</span></el-col>
+            <el-col :span="6"><span class="span">contacts: </span></el-col>
+            <el-col :span="12" :offset="4"><span class="span">Ridge</span></el-col>
           </el-row>
         </el-col>
       </el-row>
@@ -61,16 +68,6 @@ import rice from '@/assets/img/rice-1549130.jpg'
 </template>
 
 <style lang="scss" scoped>
-.login {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  background-image: url("@/assets/img/backgroud.png");
-  background-size: cover;
-}
-
-
 .text {
   position: inherit;
   width: 20%;
