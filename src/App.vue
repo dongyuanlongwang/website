@@ -5,7 +5,7 @@ import logo from '@/assets/svg/logo.svg'
 <template>
   <el-container>
     <el-header>
-      <div style="float: left;">
+      <div class="logo">
         <el-image :src="logo"></el-image>
       </div>
     </el-header>
@@ -31,7 +31,6 @@ import logo from '@/assets/svg/logo.svg'
 .el-main {
   padding: 0 !important;
   display: block;
-//flex: 1; flex-basis: auto;
   overflow: auto;
   box-sizing: border-box;
   position: absolute;
@@ -41,10 +40,17 @@ import logo from '@/assets/svg/logo.svg'
   width: 100%;
   z-index: -1;
 }
+.logo{
+  position: absolute;
+  left: -5vmin;
+  width: 20vmax;
+  height: 20vmin;
+}
+
 
 .footer {
   position: absolute;
-  bottom: 0;;
+  bottom: 0;
   color: #000000;
   display: flex;
   justify-content: center;
