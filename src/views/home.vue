@@ -80,17 +80,38 @@ import eshop from '@/assets/img/pexels-fauxels-3184464.jpg'
       <el-row>
         <el-col>
           <el-row :gutter="24">
-            <el-col :span="6"><span class="span">email: </span></el-col>
-            <el-col :span="12" :offset="6"><a class="span" href="mailto:liu@comobiz.com">liu@comobiz.com</a></el-col>
+            <el-col :span="6"><span class="span">contacts: </span></el-col>
+            <el-col :span="12"><span class="span">GiGi</span></el-col>
           </el-row>
         </el-col>
         <el-col>
           <el-row :gutter="24">
+            <el-col :span="6"><span class="span">email: </span></el-col>
+            <el-col :span="12"><a class="span" href="mailto:gigili@hknahoo.com">gigili@hknahoo.com</a></el-col>
+          </el-row>
+        </el-col>
+
+        <el-col>
+          <el-row :gutter="24">
+            <el-col :span="6"><span class="span">phone: </span></el-col>
+            <el-col :span="12"><span class="span">+852 9658 9989</span></el-col>
+          </el-row>
+        </el-col>
+        <el-divider/>
+        <el-col>
+          <el-row :gutter="24">
             <el-col :span="6"><span class="span">contacts: </span></el-col>
-            <el-col :span="12" :offset="4"><span class="span">Ridge</span></el-col>
+            <el-col :span="12" ><span class="span">Ridge</span></el-col>
+          </el-row>
+        </el-col>
+        <el-col>
+          <el-row :gutter="24">
+            <el-col :span="6"><span class="span">email: </span></el-col>
+            <el-col :span="12" ><a class="span" href="mailto:Ridge@hknahoo.com">Ridge@hknahoo.com</a></el-col>
           </el-row>
         </el-col>
       </el-row>
+
     </div>
   </div>
 
