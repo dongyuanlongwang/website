@@ -1,13 +1,12 @@
 <script lang="ts" setup>
-import logo from '@/assets/svg/logo.svg'
 
 </script>
 <template>
   <el-container>
     <el-header>
-      <div class="logo">
-        <el-image :src="logo"></el-image>
-      </div>
+<!--      <div class="logo">-->
+<!--        <el-image :src="logo"></el-image>-->
+<!--      </div>-->
     </el-header>
     <el-main>
       <router-view/>
