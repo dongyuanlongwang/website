@@ -1,9 +1,6 @@
 <script lang="ts" setup>
 
 import logo from '@/assets/svg/logo.svg?component'
-
-
-
 </script>
 <template>
   <div class="relative flex flex-col bg-orange-600">
