@@ -7,7 +7,7 @@
   </el-container>
 </template>
 
-<script setup>
+<script setup lang="ts">
 
 import {ref} from "vue";
 import {useRoute, useRouter} from 'vue-router'
