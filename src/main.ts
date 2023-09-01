@@ -5,10 +5,12 @@ import App from './App.vue'
 import router from './router/index'
 
 import ElementPlus from 'element-plus'
-import locale from 'element-plus/lib/locale/lang/zh-cn' // 中文语言
+import zhCn from 'element-plus/dist/locale/zh-cn.mjs'
 
 import 'element-plus/dist/index.css'
-import './assets/styles/element.scss'
+// import './assets/styles/element.scss'
+
+import './index.css'
 
 const app = createApp(App)
 
@@ -20,7 +22,7 @@ app.use(router)
 
 // 使用element-plus 并且设置全局的大小
 app.use(ElementPlus, {
-  locale: locale,
+  locale: zhCn,
 })
 
 for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
