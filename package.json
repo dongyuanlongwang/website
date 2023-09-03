@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
-    "start": "npm run dev",
-    "build": "vite build"
+    "build": "vue-tsc && vite build"
   },
   "dependencies": {
     "vue": "^3.3.4"
