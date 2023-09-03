@@ -140,7 +140,7 @@
         <div class="h-20">
         </div>
         <div class="place-self-center">
-          <span class="text-1xl text-dark-700">Copyright © 2022 COMO All Rights Reserved.</span>
+          <span class="text-1xl text-dark-700">Copyright © 2022 hknahoo All Rights Reserved.</span>
         </div>
       </div>
     </div>
